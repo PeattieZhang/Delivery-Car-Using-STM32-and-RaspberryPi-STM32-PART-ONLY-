@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: null null, null, LIC=CZLZ9-4NLBU-01RP1-CBG6X-G69J9-0XQGI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  E:\Programes\ST\KeilCore\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\PeattieZhang\Documents\ST_Projects\Delivery_Car\MDK-ARM\Delivery_Car.uvprojx
+Project File Date:  04/12/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\Programes\ST\KeilCore\ARM\ARMCC\Bin'
+Build target 'Delivery_Car'
+compiling main.c...
+../Src/main.c(106): error:  #31: expression must have integral type
+  			switch(Op_GetStatus){
+../Src/main.c: 0 warnings, 1 error
+compiling Cam.c...
+Cam.c(21): warning:  #940-D: missing return statement at end of non-void function "Cam_GetColour" 
+  }
+Cam.c: 1 warning, 0 errors
+compiling Operations.c...
+compiling Arm.c...
+compiling Omni_Wheel.c...
+Omni_Wheel.c(32): warning:  #940-D: missing return statement at end of non-void function "Omni_GetCurrentMovement" 
+  }
+Omni_Wheel.c: 1 warning, 0 errors
+compiling Track_Detect.c...
+Track_Detect.c(22): warning:  #940-D: missing return statement at end of non-void function "TD_CurrentGroup" 
+  }
+Track_Detect.c(29): warning:  #940-D: missing return statement at end of non-void function "TD_DetectFlag" 
+  }
+Track_Detect.c: 2 warnings, 0 errors
+compiling Branch_Detect.c...
+Branch_Detect.c(24): warning:  #940-D: missing return statement at end of non-void function "BD_DetectFlag" 
+  }
+Branch_Detect.c: 1 warning, 0 errors
+"Delivery_Car\Delivery_Car.axf" - 1 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Delivery_Car
+  E:\Programes\ST\KeilPack\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  E:\Programes\ST\KeilPack\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Target not created.
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
